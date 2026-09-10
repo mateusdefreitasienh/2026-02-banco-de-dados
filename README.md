@@ -26,3 +26,14 @@ SET ID = 5
 WHERE ID = 1;
 ```
 Se um jogador possuía IDCLUBE = 1, o banco atualizará automaticamente para IDCLUBE = 5.
+
+
+## TEMPORARY TABLE
+
+- Só existe enquanto está conectado no banco. Ao desconectar, precisa criar a tabela de novo
+
+## SELECT COM 2 ORDERBY
+
+```sql
+SELECT * FROM TBRAS ORDER BY MANDANTEGOLS DESC, VISITANTEGOLS ASC;
+```
